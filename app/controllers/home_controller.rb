@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
   def index
     # render 'home/index'
-    @title = 'タイトル'
+    # @title = 'タイトル'
+    @article = Article.first
   end
 
   def about
